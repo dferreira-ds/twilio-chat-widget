@@ -24,9 +24,9 @@ export const createConversation = asyncHandler (async (req, res) => {
             identity: "socketio-conversation-user",
         });
 
-        console.log(conversation.sid);
-        console.log(webhook.target, webhook.configuration);
-        console.log(participant.identity);
+        //console.log(conversation.sid);
+        //console.log(webhook.target, webhook.configuration);
+        //console.log(participant.identity);
     }
     catch (err) {
         return res.status(500).json({ "error": err.message });

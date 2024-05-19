@@ -5,5 +5,6 @@ const router = express.Router();
 
 //message routes
 router.post("/postMessages", postMessages);
+//router.post("/flexMessage", newFlexMessage);
 
 export default router;

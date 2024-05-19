@@ -12,7 +12,7 @@ export const postMessages = asyncHandler (async (req, res) => {
             xTwilioWebhookEnabled: true,
         });
 
-        console.log(message)
+        //console.log(message)
     }
     catch (err) {
         return res.status(500).json({ "error": err.message });
